@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backimg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="354dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/ranchers"
+        android:shadowColor="#FFFFFF"
+        android:text="TIC-TAC-TOE"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="47dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="424dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.401">
+
+        <EditText
+            android:id="@+id/player1name"
+            android:layout_width="273dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginBottom="33dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Player 1 Name"
+            android:maxLength="8"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/player2name"
+            android:layout_width="273dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="22dp"
+            android:background="#ffffff"
+            android:ems="10"
+            android:hint="Player 2 Name"
+            android:maxLength="8"
+            android:inputType="textPersonName"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/startgame"
+            android:layout_width="146dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="164dp"
+            android:background="@drawable/rounded_button"
+            android:text="Start"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
