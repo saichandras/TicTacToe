@@ -291,9 +291,7 @@ public class GameStart extends AppCompatActivity {
 
         WinnerDialog.dismiss();
 
-        Intent intent_ResetBack = new Intent ( this, MainActivity.class );
-        startActivity ( intent_ResetBack );
-        finishAffinity();
+        finish ();
 
     }
 

@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         CharSequence[] players = {player1, player2};
         Intent i = new Intent ( this, GameStart.class );
         i.putExtra("PlayerNames", players);
-        startActivity (i);
+        startActivityForResult (i , 10);
     }
 
 
@@ -161,7 +161,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
-                System.exit(0);
             }
         } );
 
