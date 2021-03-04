@@ -1,6 +1,6 @@
  # TicTacToe (Android APP)
 							
-Features:-
+###### Features:-
 * Linear Time Algorithm to predict the winner for Tic-Tac-Toe.
 
 ###### Assumptions:-
@@ -14,6 +14,6 @@ Features:-
 * Player Names can not have any numbers in it.
 * Player Names can not have spaces alone.
 
-Images:-
+###### Images:-
 
 <img src="https://user-images.githubusercontent.com/42498264/110012027-b0c53000-7ce5-11eb-9ce5-f529e9eb5a9a.gif" width="200" height="400" /> &nbsp; &nbsp; &nbsp;
