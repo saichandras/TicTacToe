@@ -13,3 +13,6 @@ Features:-
 * Player Names should be a length of 8 characters.
 * Player Names can not have any numbers in it.
 * Player Names can not have spaces alone.
+
+Images:-
+<img src="https://user-images.githubusercontent.com/42498264/110012027-b0c53000-7ce5-11eb-9ce5-f529e9eb5a9a.gif" width="200" height="400" /> &nbsp; &nbsp; &nbsp;
