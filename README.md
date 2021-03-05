@@ -1,7 +1,7 @@
  # TicTacToe (Android APP)
 							
 ###### Features:-
-* Linear Time Algorithm to predict the winner for Tic-Tac-Toe (Works with all n * n matrix).
+* Linear Time Algorithm to predict the winner for Tic-Tac-Toe (Works with all n * n grid).
 
 ###### Assumptions:-
 * Player one always starts with the “X” symbol in the game.
